@@ -1,0 +1,28 @@
+.navbar {
+    
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 40px; /* Adjust logo size as needed */
+    height: auto;
+    margin-right: 10px;
+}
+
+.logo span {
+    color: #FFC2C7;
+    font-weight: bold;
+}
+
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+}

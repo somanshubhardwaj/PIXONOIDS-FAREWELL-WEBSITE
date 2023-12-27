@@ -1,0 +1,49 @@
+.main {
+    height: 731px;
+}
+
+.pixotitle {
+    font-size: 100px;
+    font-weight: 900;
+    background: linear-gradient(to right, red, blue);
+    text-align: center;
+    padding-top: 200px;
+    color: transparent;
+    -webkit-background-clip: text;
+    text-shadow: 0 0 60px rgba(255, 0, 0, 0.45);
+    animation: anime 2s infinite alternate;
+}
+.farewelltext{
+    font-size: 50px;
+    font-weight: 900;
+    background: linear-gradient(to right, red, blue);
+    text-align: center;
+    padding-top: 200px;
+    color: transparent;
+    -webkit-background-clip: text;
+    text-shadow: 0 0 60px rgba(255, 0, 0, 0.45);
+    animation: anime 2s infinite alternate;
+}
+
+@keyframes anime {
+    100% {
+        text-shadow: 0 0 60px rgba(76, 0, 255, 0.45);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .pixotitle {
+        font-size: 60px;
+        padding-top: 100px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .pixotitle {
+
+        align-self: center;
+        font-size: 40px;
+        padding-top: 150px;
+    }
+
+}
