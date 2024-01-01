@@ -22,3 +22,10 @@ nav{
     width: 100%;
     background: none;
 }
+body::-webkit-scrollbar{
+    background-color: transparent;
+}
+body::-webkit-scrollbar-thumb{
+    background-color: var(--color-text);
+    border-radius: 15px;
+}
