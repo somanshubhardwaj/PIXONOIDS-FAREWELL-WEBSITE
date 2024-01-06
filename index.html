@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="./styles/styles.css">
     <link rel="stylesheet" href="./styles/navbar.css">
     <link rel="stylesheet" href="./styles/cards.css">
+    <link rel="stylesheet" href="./styles/video.css">
     <link rel="stylesheet" href="global.css">
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
@@ -33,6 +34,11 @@
 
         </div>
     </main>
+
+    <div class="video h-screen bg-red-300">
+        <video src="./assets/video/video.mp4" controls preload="auto" poster="./assets/ai/background.jpeg"
+            class="w-full p-5"></video>
+    </div>
     <!-- Messages Section -->
     <section class="messages-section h-screen">
 
@@ -69,27 +75,28 @@
         <div class="card h-screen">
             <div class="info">
                 <div class="infocard">
-                    <div class="h-20 w-full bg-black flex">
-                        <div class="w-20 ">
-                            <img src="./assets/logo/Pixonoids - Material UI.png" alt="">
-                        </div>
-                        <div>
-                            <div class="h-1/2"></div>
-                            <div class="h-1/2 dept">
-                                <div className="bn40div">
-                                    <a class="bn40" href="/">Button</a>
-                                </div>
-                            </div>
+
+                    <div class="w-full  flex  justify-center">
+                        <div class="w-[50px] h-[50px]">
+                            <img class="" src="./assets/logo/Pixonoids - Material UI.png" alt="Sunset in the mountains">
+
                         </div>
                     </div>
                     <div>
+                        <h1 class="text-2xl font-bold text-center ">Name</h1>
+                        <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto vitae
+                            amet reiciendis necessitatibus a ab distinctio, fugit hic dolore repellat.</p>
+                        <div class="socialmedia">
 
+                        </div>
                     </div>
                 </div>
 
             </div>
             <div class="charimg">
                 <div class="image">
+                    <img class="w-full h-full object-cover" src="./assets/ai/background.jpeg"
+                        alt="Sunset in the mountains">
 
                 </div>
 

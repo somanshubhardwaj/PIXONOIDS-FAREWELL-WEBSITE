@@ -1,64 +1,72 @@
-.card{
-    width: 100%;    
-    background-color: #fff;
+.card {
+    width: 100%;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.2);
-    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    display: flex;
     position: relative;
     cursor: pointer;
 }
-.info{
+
+.info {
     width: 50%;
     height: 100%;
-    background-color: aliceblue;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 0;
 }
-.charimg{
+
+.charimg {
     width: 50%;
     height: 100%;
-    background-color: aqua;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+.image{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.504);
+    margin: 10px;
+}
+
 @media (max-width: 768px) {
-    .info, .charimg {
+    .card {
+        flex-direction: column;
+    }
+
+    .info,
+    .charimg {
         width: 100%;
         height: 50%;
     }
 }
 
 
-
-
-
-
-
-
-
-
-.dept{
-    float: right;
+.infocard {
+    width: 300px;
+    text-align: center;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(220, 198, 198, 0.1);
+    animation: txtright 1s  linear;/*only test animation*/
+    background-color: rgba(255, 255, 255, 0.65);
 }
 
 
 
 
-.bn40 {
-    border-radius: 4px;
-    font-weight: 600;
-    font-size: large;
-    padding: 4px 6px;
-    color: #fff !important;
-  }
-  
-  .bn40::after {
-    max-width: 100%;
-    height: 2px;
-    display: block;
-    content: "";
-    background: linear-gradient(-90deg, #ff9100 0%, #f10366 50%, #6173ff 100%);
-    opacity: 1;
-    margin-bottom: -6px;
-    margin-top: 1px;
-  }
-  
-  .bn40div {
-    display: flex;
+
+
+@keyframes txtright {
+    to {
+      transform: translateX(0%);
+    }
+    from {
+      transform: translateX(-100%);
+    }
   }

@@ -3,7 +3,7 @@
     font-weight: 900;
     background: linear-gradient(to right, red, blue);
     text-align: center;
-    margin-top: 180px;
+    padding-top: 180px;
     color: transparent;
     -webkit-background-clip: text;
     text-shadow: 0 0 60px rgba(255, 0, 0, 0.45);
