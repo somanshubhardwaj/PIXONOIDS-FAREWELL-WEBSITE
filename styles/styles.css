@@ -1,5 +1,5 @@
 /* Messages Section Styles */
-.messages-section {
+.video-section {
     background-image: url('../assets/ai/mesback.jpeg');
     background-size: cover;
     background-position: center;
@@ -7,9 +7,4 @@
     display: flex;
     justify-content: center;
     align-items: center;
-}
-.message {    
-    width: fit-content;
-    border-radius: 8px;
-    overflow: hidden;
 }
