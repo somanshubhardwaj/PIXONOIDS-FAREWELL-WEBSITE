@@ -8,3 +8,85 @@
     justify-content: center;
     align-items: center;
 }
+.imgbox{
+    height: 100vh;
+    padding: 50px;
+    overflow: hidden;
+}
+.imgelement{
+    border-radius: 25px;
+    height: 100%;
+    background-color: aqua;
+    animation: trans 20s normal forwards ease-in-out;
+    animation-iteration-count: infinite; 
+    overflow: hidden;
+}
+@media screen and (max-width: 768px) {
+    .imgelement{
+        height: 35vh;
+
+    }
+    .imgbox{
+        height: 35vh;
+        padding: 10px;
+    }
+    
+}
+@keyframes trans {
+    0%{
+        background: url('../assets/ai/img1.jpeg');
+        background-size: cover;
+        background-position: center;
+    }
+    10%{
+        background: url('../assets/ai/img2.jpeg');
+        background-size: cover;
+        background-position: center;
+    }
+    20%{
+        background: url('../assets/ai/img3.jpeg');
+        background-size: cover;
+        background-position: center;
+    }
+    30%{
+        background: url('../assets/ai/img4.jpeg');
+        background-size: cover;
+        background-position: center;
+    }
+    40%{
+        background: url('../assets/ai/img5.jpeg');
+        background-size: cover;
+        background-position: center;
+    }
+    50%{
+        background: url('../assets/ai/img6.jpeg');
+        background-size: cover;
+        background-position: center;
+    }
+    60%{
+        background: url('../assets/ai/img1.jpeg');
+        background-size: cover;
+        background-position: center;
+    }
+    70%{
+        background: url('../assets/ai/img2.jpeg');
+        background-size: cover;
+        background-position: center;
+    }
+    80%{
+        background: url('../assets/ai/img3.jpeg');
+        background-size: cover;
+        background-position: center;
+    }
+    90%{
+        background: url('../assets/ai/img4.jpeg');
+        background-size: cover;
+        background-position: center;
+    }
+
+    100%{
+        background: url('../assets/ai/img5.jpeg');
+        background-size: cover;
+        background-position: center;
+    }
+}
