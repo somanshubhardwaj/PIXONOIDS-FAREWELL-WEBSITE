@@ -1,14 +1,17 @@
 :root{
-    --color-secondary: #F41F4E;
+    --color-secondary: #9B27C2;
+    --color-secondary2: #79398F;
+    --color-secondary3: #79398F;
     --color-text: #FBFBFB;
-    --color-primary: #FFC2C7;
-    --color-bg: #000000;
+    --color-primary: #B600F5;
+    --color-bg: #181a1f;
 
 }
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    overflow-x: hidden;
 }
 body{
     background: var(--color-bg);

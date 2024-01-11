@@ -5,14 +5,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Farewell 2023 | Pixonoids</title>
+    <!--Site icon -->
     <link rel="icon" href="./assets/logo/Pixonoids - Material UI.png">
+    <!--css -->
     <link rel="stylesheet" href="./styles/main.css">
     <link rel="stylesheet" href="./styles/styles.css">
     <link rel="stylesheet" href="./styles/navbar.css">
     <link rel="stylesheet" href="./styles/cards.css">
     <link rel="stylesheet" href="./styles/video.css">
     <link rel="stylesheet" href="global.css">
+    <!--tailwind  -->
     <script src="https://cdn.tailwindcss.com"></script>
+    <!--trig js import track the scroll -->
+    <script src="https://cdn.jsdelivr.net/npm/trig-js/src/trig.min.js"></script>
 </head>
 
 <body>
@@ -28,17 +33,18 @@
         <div class="main h-screen">
             <h1 class="pixotitle">PIXONOIDS</h1>
             <h1 class="farewelltext">Farewell-2023</h1>
-            <div class="btnmain">
-                <a href="/" class="bn5">Hover</a>
-            </div>
+
 
         </div>
     </main>
 
+
+    <!-- Video Section -->
+    <!--
     <div class="video h-screen bg-red-300">
         <video src="./assets/video/video.mp4" controls preload="auto" poster="./assets/ai/background.jpeg"
             class="w-full p-5"></video>
-    </div>
+    </div>-->
     <!-- Messages Section -->
     <section class="messages-section h-screen">
 
@@ -71,32 +77,55 @@
     </section>
     <div>
 
-        <!--cards1-->
-        <div class="card h-screen">
-            <div class="info">
+        <!--cards odd-->
+        <div class="cardparent h-screen ">
+            <div class="info aniodd " data-trig>
+                <div class="h-[10px]  w-full "></div>
                 <div class="infocard">
+                    <div class="parent card1">
+                        <div class="card ">
+                            <div class="content-box">
+                                <h1 class="card-title">Name</h1> <span class="dept">DEpartment</span>
+                                <p class="card-content">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, corporis?
+                                </p>
+                                <div class="flex mt-3">
 
-                    <div class="w-full  flex  justify-center">
-                        <div class="w-[50px] h-[50px]">
-                            <img class="" src="./assets/logo/Pixonoids - Material UI.png" alt="Sunset in the mountains">
 
+                                    <a class=" text-gray-400">
+                                        <svg fill="none" stroke="currentColor" stroke-linecap="round"
+                                            stroke-linejoin="round" stroke-width="2" class="w-[18px] h-[18px]"
+                                            viewBox="0 0 24 24">
+                                            <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                                            <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+                                        </svg>
+                                    </a>
+                                    <a class="ml-3 text-gray-400">
+                                        <svg fill="currentColor" stroke="currentColor" stroke-linecap="round"
+                                            stroke-linejoin="round" stroke-width="0" class="w-[18px] h-[18px]"
+                                            viewBox="0 0 24 24">
+                                            <path stroke="none"
+                                                d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z">
+                                            </path>
+                                            <circle cx="4" cy="4" r="2" stroke="none"></circle>
+                                        </svg>
+                                    </a>
+                                </div>
+
+                            </div>
+                            <div class="img-box">
+
+                            </div>
                         </div>
                     </div>
-                    <div>
-                        <h1 class="text-2xl font-bold text-center ">Name</h1>
-                        <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto vitae
-                            amet reiciendis necessitatibus a ab distinctio, fugit hic dolore repellat.</p>
-                        <div class="socialmedia">
 
-                        </div>
-                    </div>
+
                 </div>
 
             </div>
             <div class="charimg">
-                <div class="image">
-                    <img class="w-full h-full object-cover" src="./assets/ai/background.jpeg"
-                        alt="Sunset in the mountains">
+                <div class="image card1 ani2 " data-trig>
+                    <img class="" src="https://dummyimage.com/600x600" alt="image">
 
                 </div>
 
@@ -106,7 +135,176 @@
 
 
 
+        <!--cards even-->
+        <div class="cardparent h-screen ">
 
+            <div class="charimg">
+                <div class="image card1 ani2 " data-trig>
+                    <img class="" src="https://dummyimage.com/600x600" alt="image">
+
+                </div>
+
+            </div>
+            <div class="info anieven " data-trig>
+                <div class="h-[10px]  w-full "></div>
+                <div class="infocard">
+                    <div class="parent card1">
+                        <div class="card ">
+                            <div class="content-box">
+                                <h1 class="card-title">Name</h1> <span class="dept">DEpartment</span>
+                                <p class="card-content">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, corporis?
+                                </p>
+                                <div class="flex mt-3">
+
+
+                                    <a class=" text-gray-400">
+                                        <svg fill="none" stroke="currentColor" stroke-linecap="round"
+                                            stroke-linejoin="round" stroke-width="2" class="w-[18px] h-[18px]"
+                                            viewBox="0 0 24 24">
+                                            <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                                            <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+                                        </svg>
+                                    </a>
+                                    <a class="ml-3 text-gray-400">
+                                        <svg fill="currentColor" stroke="currentColor" stroke-linecap="round"
+                                            stroke-linejoin="round" stroke-width="0" class="w-[18px] h-[18px]"
+                                            viewBox="0 0 24 24">
+                                            <path stroke="none"
+                                                d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z">
+                                            </path>
+                                            <circle cx="4" cy="4" r="2" stroke="none"></circle>
+                                        </svg>
+                                    </a>
+                                </div>
+
+                            </div>
+                            <div class="img-box">
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+            </div>
+        </div>
+
+        
+        <!--cards odd-->
+        <div class="cardparent h-screen ">
+            <div class="info aniodd " data-trig>
+                <div class="h-[10px]  w-full "></div>
+                <div class="infocard">
+                    <div class="parent card1">
+                        <div class="card ">
+                            <div class="content-box">
+                                <h1 class="card-title">Name</h1> <span class="dept">DEpartment</span>
+                                <p class="card-content">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, corporis?
+                                </p>
+                                <div class="flex mt-3">
+
+
+                                    <a class=" text-gray-400">
+                                        <svg fill="none" stroke="currentColor" stroke-linecap="round"
+                                            stroke-linejoin="round" stroke-width="2" class="w-[18px] h-[18px]"
+                                            viewBox="0 0 24 24">
+                                            <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                                            <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+                                        </svg>
+                                    </a>
+                                    <a class="ml-3 text-gray-400">
+                                        <svg fill="currentColor" stroke="currentColor" stroke-linecap="round"
+                                            stroke-linejoin="round" stroke-width="0" class="w-[18px] h-[18px]"
+                                            viewBox="0 0 24 24">
+                                            <path stroke="none"
+                                                d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z">
+                                            </path>
+                                            <circle cx="4" cy="4" r="2" stroke="none"></circle>
+                                        </svg>
+                                    </a>
+                                </div>
+
+                            </div>
+                            <div class="img-box">
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+            </div>
+            <div class="charimg">
+                <div class="image card1 ani2 " data-trig>
+                    <img class="" src="https://dummyimage.com/600x600" alt="image">
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+        <!--cards even-->
+        <div class="cardparent h-screen ">
+
+            <div class="charimg">
+                <div class="image card1 ani2 " data-trig>
+                    <img class="" src="https://dummyimage.com/600x600" alt="image">
+
+                </div>
+
+            </div>
+            <div class="info anieven " data-trig>
+                <div class="h-[10px]  w-full "></div>
+                <div class="infocard">
+                    <div class="parent card1">
+                        <div class="card ">
+                            <div class="content-box">
+                                <h1 class="card-title">Name</h1> <span class="dept">DEpartment</span>
+                                <p class="card-content">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, corporis?
+                                </p>
+                                <div class="flex mt-3">
+
+
+                                    <a class=" text-gray-400">
+                                        <svg fill="none" stroke="currentColor" stroke-linecap="round"
+                                            stroke-linejoin="round" stroke-width="2" class="w-[18px] h-[18px]"
+                                            viewBox="0 0 24 24">
+                                            <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                                            <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+                                        </svg>
+                                    </a>
+                                    <a class="ml-3 text-gray-400">
+                                        <svg fill="currentColor" stroke="currentColor" stroke-linecap="round"
+                                            stroke-linejoin="round" stroke-width="0" class="w-[18px] h-[18px]"
+                                            viewBox="0 0 24 24">
+                                            <path stroke="none"
+                                                d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z">
+                                            </path>
+                                            <circle cx="4" cy="4" r="2" stroke="none"></circle>
+                                        </svg>
+                                    </a>
+                                </div>
+
+                            </div>
+                            <div class="img-box">
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+            </div>
+        </div>
 
 
 
@@ -114,10 +312,12 @@
 
 
     </div>
+
+
     <footer>
         <!-- this is sample footer -->
 
-        <footer class="text-white bg-black body-font">
+        <footer class="text-white body-font">
             <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
                 <a class="flex title-font font-medium items-center md:justify-start justify-center text-white">
                     <img src="./assets/logo/Pixonoids - Material UI.png" alt="Logo" class="logo w-10 h-10">
