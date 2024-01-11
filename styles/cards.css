@@ -52,30 +52,11 @@
         height: 50%;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .parent {
     height: 400px;
     width: 300px;
     padding: 20px;
-
 }
-
 .card {
     padding-top: 100px;
     transform-style: preserve-3d;
@@ -85,12 +66,10 @@
     transition: all 0.5s ease-in-out;
     border-radius: 10px;
 }
-
 .card:hover {
     
     transform: rotate3d(0.5, 1, 0, 30deg);
 }
-
 .content-box {
     height: 100%;
     width: 100%;
@@ -101,7 +80,6 @@
     padding: 50px 25px 25px 25px;
     transform-style: preserve-3d;
 }
-
 .content-box .card-title {
     color: white;
     font-size: 25px;
@@ -109,11 +87,9 @@
     transition: all 0.5s ease-in-out;
     transform: translate3d(0px, 0px, 20px);
 }
-
 .content-box .card-title:hover {
     transform: translate3d(0px, 0px, 50px);
 }
-
 .content-box .card-content {
     padding-top: 15px;
     font-size: 12px;
@@ -121,7 +97,6 @@
     transition: all 0.5s ease-in-out;
     transform: translate3d(0px, 0px, 20px);
 }
-
 .content-box .card-content:hover {
     transform: translate3d(0px, 0px, 50px);
 }

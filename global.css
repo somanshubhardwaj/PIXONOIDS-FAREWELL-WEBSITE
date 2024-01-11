@@ -32,8 +32,6 @@ body::-webkit-scrollbar-thumb{
     background-color: var(--color-text);
     border-radius: 15px;
 }
-
-
 footer{
     background: var(--color-secondary2);
     
@@ -44,14 +42,12 @@ footer{
     overflow: hidden;
     line-height: 0;
 }
-
 .custom-shape-divider-bottom-1704973730 svg {
     position: relative;
     display: block;
     width: calc(100% + 1.3px);
     height: 152px;
 }
-
 .custom-shape-divider-bottom-1704973730 .shape-fill {
     fill: var(--color-secondary2);
 }
