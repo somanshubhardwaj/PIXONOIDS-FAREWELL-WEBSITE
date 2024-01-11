@@ -89,3 +89,9 @@ footer{
 .custom-shape-divider-top-1704987424 .shape-fill {
     fill: var(--color-secondary2);
 }
+/*message section mid*/
+.message-text-section{
+    height: calc(100vh - 362px);
+    width: 100%;
+    background-color: var(--color-secondary2);
+}
