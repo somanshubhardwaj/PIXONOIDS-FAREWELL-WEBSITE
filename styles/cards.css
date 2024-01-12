@@ -50,6 +50,7 @@
     .charimg {
         width: 100%;
         height: 50%;
+        overflow: hidden;
     }
 }
 .parent {
