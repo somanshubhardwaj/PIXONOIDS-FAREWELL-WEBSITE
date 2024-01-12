@@ -18,6 +18,9 @@
 
     margin: 0;
 }
+.infocard{
+    overflow: hidden;
+}
 
 .charimg {
     width: 50%;
@@ -50,14 +53,12 @@
     .charimg {
         width: 100%;
         height: 50%;
-        overflow: hidden;
     }
 }
 .parent {
     height: 400px;
     width: 300px;
     padding: 20px;
-    overflow: hidden;/* fix it later just a temp sol*/
 }
 .card {
     padding-top: 100px;
