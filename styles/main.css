@@ -9,6 +9,7 @@
     background-clip: text;
     text-shadow: 0 0 60px rgba(255, 0, 0, 0.45);
 }
+
 .farewelltext {
     font-size: 50px;
     font-weight: 900;
@@ -28,6 +29,7 @@
         padding-top: 100px;
     }
 }
+
 @media screen and (max-width: 480px) {
     .pixotitle {
         align-self: center;
@@ -35,9 +37,90 @@
         padding-top: 150px;
     }
 }
-.main{
-    
-    background-image: url(../svg/main.svg) ;
+
+.main {
+
+    background-image: url(../svg/main.svg);
     background-size: cover;
-    background-position: center; 
+    background-position: center;
+}
+
+.popupbtn{
+    
+    background-color: #fff;
+    color: #000;
+    padding: 5px;
+    border-radius: 10px;
+}
+.popupbtn:hover{
+    background-color: #000;
+    color: #fff;
+    padding: 5px;
+    border-radius: 10px;
+    border: 2px solid #fff;
+}
+
+/* Popup box BEGIN */
+
+.overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.overlay:target {
+    visibility: visible;
+    opacity: 1;
+}
+
+.popup {
+    margin: 70px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    width: 30%;
+    position: relative;
+    transition: all 5s ease-in-out;
+}
+
+.popup h2 {
+    margin-top: 0;
+    color: #333;
+    font-family: Tahoma, Arial, sans-serif;
+}
+
+.popup .close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+}
+
+.popup .close:hover {
+    color: #06D85F;
+}
+
+.popup .content {
+    max-height: 30%;
+    overflow: auto;
+}
+
+@media screen and (max-width: 700px) {
+    .box {
+        width: 70%;
+    }
+
+    .popup {
+        width: 70%;
+    }
 }

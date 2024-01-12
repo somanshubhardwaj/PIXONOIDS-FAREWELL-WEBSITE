@@ -90,3 +90,41 @@
         background-position: center;
     }
 }
+.arrow{
+    border: 2px solid #fff;
+    border-radius: 5px;
+    width: min-content;
+    padding: 7px;
+    background-color: black;
+    position: fixed;
+    right: 5px;
+    bottom: 10px;
+    z-index: 100;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
