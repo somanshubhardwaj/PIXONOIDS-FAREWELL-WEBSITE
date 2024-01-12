@@ -10,11 +10,11 @@
 }
 .imgbox{
     height: 100vh;
-    padding: 50px;
+    padding: 6px;
     overflow: hidden;
 }
 .imgelement{
-    border-radius: 25px;
+    border-radius: 0px;
     height: 100%;
     background-color: aqua;
     animation: trans 20s normal forwards ease-in-out;

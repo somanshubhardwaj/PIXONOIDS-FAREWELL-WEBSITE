@@ -1,39 +1,31 @@
 .cardparent {
     width: 100%;
-    border-radius: 10px;
-    
+    border-radius: 10px;    
     display: flex;
     position: relative;
     cursor: pointer;
 }
-
 .info {
     width: 50%;
     height: 100%;
-
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
     margin: 0;
 }
 .infocard{
     overflow: hidden;
 }
-
 .charimg {
     width: 50%;
     height: 100%;
-
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
 .image {
-    overflow: hidden;
-    
+    overflow: hidden;    
     box-shadow: rgba(0, 115, 255, 0.925) 0px 20px 50px -25px;
     margin: 10px;
 }
@@ -41,14 +33,11 @@
     width: 100%;
     height: 100%;
     border-radius: 10px;
-
 }
-
 @media (max-width: 768px) {
     .cardparent {
         flex-direction: column;
     }
-
     .info,
     .charimg {
         width: 100%;
@@ -69,10 +58,6 @@
     transition: all 0.5s ease-in-out;
     border-radius: 10px;
 }
-.card:hover {
-    
-    transform: rotate3d(0.5, 1, 0, 30deg);
-}
 .content-box {
     height: 100%;
     width: 100%;
@@ -88,22 +73,13 @@
     font-size: 25px;
     font-weight: 900;
     transition: all 0.5s ease-in-out;
-    transform: translate3d(0px, 0px, 20px);
-}
-.content-box .card-title:hover {
-    transform: translate3d(0px, 0px, 50px);
 }
 .content-box .card-content {
-    padding-top: 15px;
+    padding-top: 12px;
     font-size: 12px;
     color: #b9b9b9;
     transition: all 0.5s ease-in-out;
-    transform: translate3d(0px, 0px, 20px);
 }
-.content-box .card-content:hover {
-    transform: translate3d(0px, 0px, 50px);
-}
-
 .content-box .dept {
     display: block;
     font-weight: 900;
@@ -112,13 +88,7 @@
     color: #0088ff;
     padding-top: 15px;
     transition: all 0.5s ease-in-out;
-    transform: translate3d(0px, 0px, 20px);
 }
-
-.content-box .see-more:hover {
-    transform: translate3d(0px, 0px, 50px);
-}
-
 .img-box {
     position: absolute;
     top: 75px;
@@ -129,7 +99,6 @@
     border-radius: 10px;
     padding: 10px;
     box-shadow: #0066ff 0px 20px 60px 0px, #00c8ff 0px 18px 36px -18px;
-    transform: translate3d(0px, 0px, 50px);
 }
 
 .card1 {
