@@ -6,6 +6,7 @@
     padding-top: 180px;
     color: transparent;
     -webkit-background-clip: text;
+    background-clip: text;
     text-shadow: 0 0 60px rgba(255, 0, 0, 0.45);
     animation: anime 2s infinite alternate;
 }
@@ -18,6 +19,7 @@
     margin-bottom: auto;
     color: transparent;
     -webkit-background-clip: text;
+    background-clip: text;
     text-shadow: 0 0 60px rgba(255, 0, 0, 0.45);
     animation: anime 2s infinite alternate;
 }
@@ -38,4 +40,10 @@
         font-size: 40px;
         padding-top: 150px;
     }
+}
+.main{
+    
+    background-image: url(../svg/main.svg) ;
+    background-size: cover;
+    background-position: center; 
 }
