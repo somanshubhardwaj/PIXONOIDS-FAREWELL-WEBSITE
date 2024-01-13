@@ -23,11 +23,37 @@
 </head>
 
 <body>
-  
-    <nav class="navbar ">    </nav>
+    <nav class="navbar">
+        <div class="navbar-logo"><img src="../assets/logo/Pixonoids - Material UI.png"></div>
+        <ul class="navbar-links">
+            <li><a href="#video">Video</a></li>
+            <li><a href="#img">Images</a></li>
+            <li><a href="#character">Characters</a></li>
+        </ul>
+        <div class="navbar-toggle">
+            <div class="tog">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                </svg>
+            </div>
+            <div class="cross">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+                </svg>
 
-    
-    
+
+            </div>
+
+        </div>
+    </nav>
+
+
+
+
+
     <div id="popup1" class="overlay">
         <div class="popup">
             <h2>Here i am</h2>
@@ -81,7 +107,7 @@
         </div>
     </section>
     <!--image section -->
-    <div class=" w-full imgbox">
+    <div class=" w-full imgbox" id="img">
         <div class="imgelement w-full h-full"></div>
 
 
@@ -1445,6 +1471,8 @@
             </div>
         </footer>
     </div>
+    <script src="js/main.js"></script>
 </body>
+
 
 </html>
