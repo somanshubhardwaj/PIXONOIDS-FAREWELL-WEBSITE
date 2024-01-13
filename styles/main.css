@@ -8,6 +8,7 @@
     -webkit-background-clip: text;
     background-clip: text;
     text-shadow: 0 0 60px rgba(255, 0, 0, 0.45);
+    font-family: 'Oswald', sans-serif;
 }
 
 .farewelltext {

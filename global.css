@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 :root{
     --color-secondary: #9B27C2;
     --color-secondary2: #79398F;
@@ -12,6 +14,7 @@
     padding: 0;
     box-sizing: border-box;
     overflow-x: hidden;
+    
 }
 body{
     background: var(--color-bg);
@@ -23,7 +26,7 @@ nav{
     top: 0;
     left: 0;*/
     width: 100%;
-    background: none;
+   
 }
 body::-webkit-scrollbar{
     background-color: transparent;
