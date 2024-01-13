@@ -45,23 +45,13 @@
     background-position: center;
 }
 
-.popupbtn{
-    
-    background-color: #fff;
-    color: #000;
-    padding: 5px;
-    border-radius: 10px;
-}
-.popupbtn:hover{
-    background-color: #000;
-    color: #fff;
-    padding: 5px;
-    border-radius: 10px;
-    border: 2px solid #fff;
-}
+
 
 /* Popup box BEGIN */
+.popupheader{
+    
 
+}
 .overlay {
     position: fixed;
     top: 0;
@@ -72,6 +62,7 @@
     transition: opacity 500ms;
     visibility: hidden;
     opacity: 0;
+    z-index: 1000;
 }
 
 .overlay:target {
@@ -84,9 +75,10 @@
     padding: 20px;
     background: #fff;
     border-radius: 5px;
-    width: 30%;
+    width: 70%;
     position: relative;
     transition: all 5s ease-in-out;
+    height: 70%;
 }
 
 .popup h2 {
@@ -111,10 +103,22 @@
 }
 
 .popup .content {
-    max-height: 30%;
+    height: 100%;
     overflow: auto;
+    color: var(--text-color);
+    display: flex;
+    align-items: end;
+    padding-bottom: 10px;
+    
 }
 
+.popup .content h1 {
+    color: var(--text-color);
+    font-size: 30px;
+    margin-bottom: 5px;
+    font-weight: bolder;
+    
+}
 @media screen and (max-width: 700px) {
     .box {
         width: 70%;
@@ -123,4 +127,7 @@
     .popup {
         width: 70%;
     }
+}
+.popup{
+    background: url("../assets/ai/background.jpeg");
 }
