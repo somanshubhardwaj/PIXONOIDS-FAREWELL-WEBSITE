@@ -49,7 +49,7 @@
 
 /* Popup box BEGIN */
 .popupheader{
-    
+    height: 20%;
 
 }
 .overlay {
@@ -103,7 +103,7 @@
 }
 
 .popup .content {
-    height: 100%;
+    height: 80%;
     overflow: auto;
     color: var(--text-color);
     display: flex;
