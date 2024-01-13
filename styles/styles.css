@@ -101,6 +101,15 @@
     bottom: 10px;
     z-index: 100;
 }
+.video-section{
+    height: 100vh;
+}
+@media screen and (max-width: 768px) {
+    .video-section{
+        height: 35vh;
+    }
+    
+}
 
 
 
