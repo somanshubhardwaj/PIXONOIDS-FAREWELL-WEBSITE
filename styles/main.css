@@ -7,27 +7,28 @@
     color: transparent;
     -webkit-background-clip: text;
     background-clip: text;
-    text-shadow: 0 0 60px rgba(255, 0, 0, 0.45);
     font-family: 'Oswald', sans-serif;
 }
 
 .farewelltext {
     font-size: 50px;
     font-weight: 900;
-    background: linear-gradient(to right, red, blue);
+    background: linear-gradient(to right, blue, red);
     text-align: center;
     margin-top: auto;
     margin-bottom: auto;
     color: transparent;
     -webkit-background-clip: text;
     background-clip: text;
-    text-shadow: 0 0 60px rgba(255, 0, 0, 0.45);
 }
 
 @media screen and (max-width: 768px) {
     .pixotitle {
         font-size: 60px;
         padding-top: 100px;
+    }
+    .farewelltext {
+        font-size: 50px;
     }
 }
 
@@ -36,6 +37,9 @@
         align-self: center;
         font-size: 40px;
         padding-top: 150px;
+    }
+    .farewelltext {
+        font-size: 30px;
     }
 }
 
