@@ -45,9 +45,9 @@
 
 .main {
 
-    background-image: url(../svg/main.svg);
+    background-image: black;
     background-size: cover;
-    background-position: center;
+    background-position: top;
 }
 
 
@@ -133,6 +133,9 @@
         width: 70%;
     }
 }
-.popup{
+#themepopup{
     background: url("../assets/ai/background.jpeg");
+}
+#pixoinfopopup{
+    background: url("../assets/ai/img1.jpeg");
 }
