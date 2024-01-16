@@ -54,7 +54,7 @@
 
 /* Popup box BEGIN */
 .popupheader{
-    height: 20%;
+    height: 10%;
 
 }
 .overlay {
@@ -108,7 +108,7 @@
 }
 
 .popup .content {
-    height: 80%;
+    height: 90%;
     overflow: auto;
     color: var(--text-color);
     display: flex;
@@ -139,3 +139,21 @@
 #pixoinfopopup{
     background: url("../assets/ai/img1.jpeg");
 }
+.names::after{
+    content: "name4";
+    animation: animatetext infinite 3s; 
+}
+@keyframes animatetext { 
+  
+    0% { 
+        content: "name1"; 
+    } 
+
+    50% { 
+        content: "name2"; 
+    } 
+
+    75% { 
+        content: "name3"; 
+    } 
+} 
